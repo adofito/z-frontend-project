@@ -14,4 +14,4 @@ Run `zola-dev` for a dev server. Navigate to `http://localhost:4200/` and the us
 
 ## Production server
 
-Run `zola-prod` to serve the production server for the Angular project and the users API will run on port 3001.
+Run `zola-prod` to serve the production server. Navigate to `http://localhost:4200/` and the users API will run on port 3001.
