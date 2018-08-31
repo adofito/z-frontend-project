@@ -1,0 +1,21 @@
+<div id="category-widget">
+  <section class="filter-section">
+    <p>Categories</p>
+    <div class="form-check radio-item form-check-inline justify-content-between align-items-center"
+         *ngFor="let cat of categories; let idx = index" id="categoryFilter">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+
+            <label class="form-check-label" for="{{'cat'+idx}}">
+              <input class="form-check-input " type="radio" type="radio" id="{{'cat'+idx}}" [value]="cat || ''"
+                     name="category" [ngModel]="selectedCategory"
+                     (change)="filterUsers(cat)">
+              {{cat || "all" | titlecase}}
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

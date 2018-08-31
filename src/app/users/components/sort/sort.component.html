@@ -1,0 +1,10 @@
+<div id="sort-widget">
+  <section class="filter-section">
+    <label>Sort by: </label>
+    <select class="select-widget" >
+      <option *ngFor="let sort of sortCriteria" value={{sort.key}}>
+        {{sort.label}}
+      </option>
+    </select>
+  </section>
+</div>
