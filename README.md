@@ -5,8 +5,8 @@ Technical Project
 
 - Clone the respository
 - Run `yarn install`
-- For dev version run `yarn zola-dev`
-- For production version run `yarn zola-prod`
+- For dev version run `yarn dev`
+- For production version run `yarn prod`
 
 ## Development server
 
