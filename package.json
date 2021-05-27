@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "zola-dev": "concurrently --kill-others \"node server\" \"ng serve\"",
-    "zola-prod": "concurrently --kill-others \"node server\" \"ng serve --prod\""
+    "dev": "concurrently --kill-others \"node server\" \"ng serve\"",
+    "prod": "concurrently --kill-others \"node server\" \"ng serve --prod\""
   },
   "private": true,
   "dependencies": {
